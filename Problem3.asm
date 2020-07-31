@@ -1,9 +1,5 @@
 bits 32 
 
-;there is an input file on your HDD ("input.txt") containing some text
-;letters big/small, decimal numbers, other characters
-;From the keyboard read the name of the file.
-
 global start        
 
 extern exit, fprintf, fread, fopen, fclose, scanf, printf               
